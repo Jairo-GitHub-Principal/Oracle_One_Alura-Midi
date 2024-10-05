@@ -7,11 +7,11 @@
 
 ##codigo js
 
-# function tocarSom(idAudio) { // vamos receber o seletor por parametro
 
 
-    
-       # let keyw = document.querySelector(idAudio); // funçã seleciona a tag que tem o audio do arquivo keyw que 
+
+        # function tocarSom(idAudio) { // vamos receber o seletor por parametro
+      # let keyw = document.querySelector(idAudio); // funçã seleciona a tag que tem o audio do arquivo keyw que 
         # return keyw.play();                                                   // é o som "clap" e retorna um play no audio
        #}
     #   const listaTeclas = document.querySelectorAll('.tecla');
