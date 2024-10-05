@@ -3,12 +3,13 @@
 ## trata-se de um tecla onde cada tecla tem um som especifico.
 ## a interface foi criada com html e css, e a interação foi feita em js
 
-##codigo js
-
-function tocarSom(idAudio) { // vamos receber o seletor por parametro
 ![imagem teclado midi](https://github.com/Jairo-GitHub-Principal/Oracle_One_Alura-Midi/blob/master/images/Screenshot_1.png?raw=true")
 
-    <img src="https://github.com/Jairo-GitHub-Principal/Oracle_One_Alura-Midi/blob/master/images/Screenshot_1.png?raw=true" alt="imgem do teclado mid" width="300px" height="300px">
+##codigo js
+
+# function tocarSom(idAudio) { // vamos receber o seletor por parametro
+
+
     
        # let keyw = document.querySelector(idAudio); // funçã seleciona a tag que tem o audio do arquivo keyw que 
         # return keyw.play();                                                   // é o som "clap" e retorna um play no audio
