@@ -6,7 +6,8 @@
 ##codigo js
 
 function tocarSom(idAudio) { // vamos receber o seletor por parametro
-    
+
+    <img src="https://github.com/Jairo-GitHub-Principal/Oracle_One_Alura-Midi/blob/master/images/Screenshot_1.png?raw=true"/>
        # let keyw = document.querySelector(idAudio); // funçã seleciona a tag que tem o audio do arquivo keyw que 
         # return keyw.play();                                                   // é o som "clap" e retorna um play no audio
        #}
