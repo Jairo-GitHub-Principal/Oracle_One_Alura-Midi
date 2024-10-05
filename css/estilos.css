@@ -46,8 +46,11 @@ h1 {
   width: 120px;
 }
 
-.tecla.ativa,
-.tecla:active {
+.tecla.ativa,.tecla:active { /* esse tipo de declaração é o seguinte:
+  se a tag html tiver nela a calsse .tecla e a classe .ativa, no momento em que a tecla em questão for ativada ou 
+  pressionada ocorrera o evento .tecla:active durante o momento de ativação dessa tecla, a condição dentro do bloco dessa classe
+  sera aplicado no elemento html que atende essas condições, ou seja:display: 
+  tem nela as classes .tecla e .ativa, e no momento o elemnto html esta ativo tornando valido o seletor tecla:active; */
   background-color: var(--vermelha);
   border: 4px solid  var(--vermelha);
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset;
@@ -55,13 +58,11 @@ h1 {
   outline: none;
 }
 
-.tecla.focus,
-.tecla:focus {
+.tecla.focus,.tecla:focus {
   outline: none;
   box-shadow: 1px 1px 10px var(--luz);
 }
 
-.tecla.active:focus,
-.tecla:active:focus {
+.tecla.active:focus,.tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
 }
